@@ -1,0 +1,44 @@
+{
+  "id": "2109505",
+  "name": "enote-er",
+  "font_family": "icon",
+  "css_prefix_text": "e-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4526375",
+      "name": "菜单 点击",
+      "font_class": "menu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5134425",
+      "name": "退出",
+      "font_class": "exit",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "9695721",
+      "name": "最小化",
+      "font_class": "minimize",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "17070026",
+      "name": "全屏 最大化",
+      "font_class": "maximize",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "17441260",
+      "name": "全屏",
+      "font_class": "quanping",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    }
+  ]
+}

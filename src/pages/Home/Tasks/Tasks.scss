@@ -1,0 +1,9 @@
+.finished {
+  transition: .4s all ease-in;
+  @include corner-badge('Finished', #fff, rgb(103, 236, 91), 'mini')
+}
+
+.unfinished {
+  transition: .4s all ease-in;
+  @include corner-badge('not-yet', #fff, rgb(252, 81, 76), 'mini')
+}

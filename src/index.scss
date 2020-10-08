@@ -1,0 +1,137 @@
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bb-1-2 {
+  border-bottom: 1px solid #222;
+}
+
+span[role='img'] {
+  cursor: pointer;
+}
+
+.tc {
+  text-align: center;
+}
+
+.hr:hover {
+  color: red;
+}
+
+.hg:hover {
+  color: green;
+}
+
+.hb:hover {
+  color: #1890FF;
+}
+
+.over-h {
+  overflow: hidden;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.top-border-radius-5 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+.window-drag {
+  -webkit-app-region: drag;
+}
+
+.window-no-drag {
+  -webkit-app-region: no-drag;
+
+  & * {
+    -webkit-app-region: no-drag;
+  }
+}
+
+.no-select {
+  -webkit-user-select: none;
+}
+
+.bg-primary {
+  background-color: $color-primary !important;
+}
+
+.bg-primary-l {
+  background-color: $color-primary-lighter !important;
+}
+
+.flex-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &>* {
+    flex: 1;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  &>*:first-child {
+    text-align: left;
+  }
+
+  &>*:last-child {
+    text-align: right;
+  }
+}
+
+.flex-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .h-100 {
+    flex: 1;
+  }
+}
+
+.warning {
+  color: $color-warning !important;
+}
+
+.info {
+  color: $color-info !important;
+}
+
+.primary {
+  color: $color-primary !important;
+}
+
+.primary-l {
+  color: $color-primary-lighter !important;
+}
+.c-title {
+  color: $color-title !important;
+}
+
+.btn {
+  display: inline-block;
+  color: $color-primary-lighter;
+}

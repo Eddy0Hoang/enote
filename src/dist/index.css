@@ -1,0 +1,109 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bb-1-2 {
+  border-bottom: 1px solid #222;
+}
+
+span[role=img] {
+  cursor: pointer;
+}
+
+.tc {
+  text-align: center;
+}
+
+.hr:hover {
+  color: red;
+}
+
+.hg:hover {
+  color: green;
+}
+
+.hb:hover {
+  color: #1890FF;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+.bg-primary {
+  background-color: #5dcbdf !important;
+}
+
+.bg-primary-l {
+  background-color: rgba(93, 204, 223, 0.596) !important;
+}
+
+.flex-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-3 > * {
+  flex: 1;
+  text-align: center;
+  overflow: hidden;
+}
+.flex-3 > *:first-child {
+  text-align: left;
+}
+.flex-3 > *:last-child {
+  text-align: right;
+}
+
+.warning {
+  color: rgba(255, 51, 0, 0.856);
+}
+
+.info {
+  color: rgba(251, 255, 0, 0.842);
+}
+
+.primary {
+  color: #5dcbdf;
+}
+
+.primary-l {
+  color: rgba(93, 204, 223, 0.596);
+}
+
+.btn {
+  display: inline-block;
+  color: rgba(93, 204, 223, 0.596);
+}

@@ -1,0 +1,33 @@
+.link {
+  color: rgb(149, 228, 252);
+  cursor: pointer;
+  @include dot2line-animation($color-primary);
+}
+.header {
+  background-color: #F9F9FA;
+  box-shadow: 0 -2px 1px #ddd inset;
+  overflow: hidden;
+  .controls-wrapper {
+    display: flex;
+    height: 100%;
+    vertical-align: middle;
+    justify-content: flex-end;
+    .controls {
+      display: flex;
+      width: auto;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 5px;
+      &>* {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  .border-tl-5 {
+    border-top-left-radius: 5px;
+  }
+  .border-tr-5 {
+    border-top-right-radius: 5px;
+  }
+}
