@@ -12,7 +12,7 @@
 ###  eject
 ###  react-serve
 
-''' 不启动浏览器的方式启动React项目 '''
+*** 不启动浏览器的方式启动React项目 
 
 ### electron-start
 ### electron-build
